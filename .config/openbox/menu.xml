@@ -14,7 +14,7 @@
     </item>
     <item label="Restart">
       <action name="Execute">
-              <command>systemctl reboot</command>
+        <command>systemctl reboot</command>
       </action>
     </item>
 
@@ -49,6 +49,6 @@
 
     <separator label="System" />
 
-    <menu id="system-menu"/>
+    <menu id="exit-menu"/>
   </menu>
 </openbox_menu>

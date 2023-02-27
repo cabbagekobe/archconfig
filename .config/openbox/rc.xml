@@ -162,7 +162,7 @@
   </keybind>
 
   <!-- Keybindings for windows -->
-  <keybind key="A-F4">
+  <keybind key="W-q">
     <action name="Close"/>
   </keybind>
   <keybind key="A-space">
@@ -189,10 +189,30 @@
     </action>
   </keybind>
 
-  <!-- Keybindings for running applications -->
+  <!-- Application Shortcut -->
   <keybind key="W-e">
     <action name="Execute">
       <command>tilix</command>
+    </action>
+  </keybind>
+
+  <keybind key="W-f">
+    <action name="Execute">
+      <command>nemo</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </keybind>
+
+  <keybind key="C-A-f">
+    <action name="Execute">
+      <command>jumpapp terminator</command>
+    </action>
+  </keybind>
+  <keybind key="C-A-v">
+    <action name="Execute">
+      <command>jumpapp vivaldi-stable</command>
     </action>
   </keybind>
 
