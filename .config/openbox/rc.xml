@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<openbox_config xmlns="http://openbox.org/3.4/rc"
-		xmlns:xi="http://www.w3.org/2001/XInclude">
+<openbox_config xmlns="http://openbox.org/3.4/rc" xmlns:xi="http://www.w3.org/2001/XInclude">
 
 <resistance>
   <strength>8</strength>
@@ -196,6 +195,15 @@
     </action>
   </keybind>
 
+  <keybind key="W-Escape">
+    <action name="Execute">
+      <command>rofi -modi drun -show drun</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </keybind>
+
   <keybind key="W-f">
     <action name="Execute">
       <command>nemo</command>
@@ -218,8 +226,12 @@
 
   <keybind key="A-Escape">
     <action name="ShowMenu">
-      <menu>system-menu</menu>
+      <menu>root-menu</menu>
     </action>
+  </keybind>
+
+  <keybind key="C-A-Escape">
+    <action name="Reconfigure" />
   </keybind>
 </keyboard>
 
