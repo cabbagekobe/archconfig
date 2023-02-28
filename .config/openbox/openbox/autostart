@@ -1,2 +1,0 @@
-(sleep 1s && ~/.config/polybar/launch.sh &) &
-(sleep 2s && fcitx5 &) &
