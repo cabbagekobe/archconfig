@@ -275,7 +275,6 @@
     <keybind key="XF86AudioRaiseVolume">
       <action name="Execute">
         <command>pamixer -i 4</command>
-</command>
       </action>
     </keybind>
     <keybind key="XF86MonBrightnessDown">
