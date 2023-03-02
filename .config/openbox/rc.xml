@@ -264,17 +264,18 @@
     <!-- Media Controll -->
     <keybind key="XF86AudioMute">
       <action name="Execute">
-        <command>pactl set-sink-mute @DEFAULT_SINK@ toggle</command>
+        <command>pamixer -t</command>
       </action>
     </keybind>
     <keybind key="XF86AudioLowerVolume">
       <action name="Execute">
-        <command>pactl set-sink-volume @DEFAULT_SINK@ -5%</command>
+        <command>pamixer -d 4</command>
       </action>
     </keybind>
     <keybind key="XF86AudioRaiseVolume">
       <action name="Execute">
-        <command>pactl set-sink-volume @DEFAULT_SINK@ +5%</command>
+        <command>pamixer -i 4</command>
+</command>
       </action>
     </keybind>
     <keybind key="XF86MonBrightnessDown">
