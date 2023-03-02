@@ -190,6 +190,17 @@
         <command>jumpapp vivaldi-stable</command>
       </action>
     </keybind>
+    <keybind key="C-A-s">
+      <action name="Execute">
+        <command>jumpapp slack</command>
+      </action>
+    </keybind>
+    <keybind key="C-A-m">
+      <action name="Execute">
+        <command>jumpapp zoom</command>
+      </action>
+    </keybind>
+    <!-- Keybindings for system -->
     <keybind key="A-Escape">
       <action name="ShowMenu">
         <menu>root-menu</menu>
@@ -285,6 +296,12 @@
     <keybind key="XF86MonBrightnessUp">
       <action name="Execute">
         <command>xbacklight -inc 5</command>
+      </action>
+    </keybind>
+    <!-- Screen Capture -->
+    <keybind key="Print">
+      <action name="Execute">
+        <command>flameshot gui</command>
       </action>
     </keybind>
   </keyboard>
