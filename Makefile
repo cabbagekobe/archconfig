@@ -3,7 +3,7 @@ PARU_PACKAGE += zoom slack-desktop
 PARU_PACKAGE += php composer github-cli
 PARU_PACKAGE += visual-studio-code-bin
 PARU_PACKAGE += ngrok google-chrome
-PARU_PACKAGE += siji-git ttf-cica
+PARU_PACKAGE += siji-git
 
 init: ## Initial deploy dotfiles
 	rm -rf ${HOME}/.xinitrc

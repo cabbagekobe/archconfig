@@ -12,23 +12,19 @@
         <command>systemctl poweroff</command>
       </action>
     </item>
-    <item label="Restart">
+    <item label="Reboot">
       <action name="Execute">
         <command>systemctl reboot</command>
       </action>
-    </item>
-
-    <item label="Reconfigure Openbox">
-      <action name="Reconfigure" />
     </item>
   </menu>
 
   <menu id="root-menu" label="Openbox 3">
     <separator label="Applications" />
 
-    <item label="Tilix">
+    <item label="Alacritty">
       <action name="Execute">
-        <command>tilix</command>
+        <command>alacritty</command>
       </action>
     </item>
 
