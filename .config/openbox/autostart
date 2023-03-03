@@ -1,3 +1,5 @@
 (sleep 1s && ~/.config/polybar/launch.sh &) &
 (sleep 2s && fcitx5 &) &
+(sleep 3s && picom -b) &
+(sleep 3s && dunst) &
 (sleep 3s && xcape -e 'Super_L=Super_L|Escape' &) &
